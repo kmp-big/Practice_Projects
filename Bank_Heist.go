@@ -51,8 +51,5 @@ if isHeistOn{
   amtStolen:=1000+rand.Intn(1000000)
   fmt.Println("Amount Stolen=",amtStolen)
 }
-
-
-
 }
 
