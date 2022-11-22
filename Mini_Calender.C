@@ -6,9 +6,10 @@
 bool is_leap_year(int year) {
     return (year % 4 == 0 && (year % 100!=0 || year % 400 == 0));
 }
-int days_in_month[]={0,31,28,31,30,31,30,31,31,30,31,30,31};
+
 
 void add_days_to_date(int* mm,int* dd,int* yy,int days_left_to_add){
+int days_in_month[]={0,31,28,31,30,31,30,31,31,30,31,30,31};
 int days_left_in_month;
 while (days_left_to_add>0)
 {
